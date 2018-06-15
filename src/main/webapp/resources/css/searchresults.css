@@ -1,0 +1,82 @@
+body {
+
+}
+
+.mcontent{
+	margin=top: 0px;
+}
+.timegrid {
+	max-width: 800px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+.selectable .ui-widget-content {
+	background: #fff;
+	color: #333333;
+	height: 38px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.selectable .first {
+	height: 50px;
+}
+
+.selectable .ui-selecting {
+	background: orange;
+}
+
+.selectable .ui-selected {
+	background: #EEEEEE;
+	color: #000000;
+	border: 2px solid orange;
+}
+
+.selectable .ui-selectee:hover {
+	background: #EEEEEE;
+	color: #000000;
+}
+
+.selectable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.selectable li {
+	margin: 1px;
+	padding: 0.4em;
+	width: 120px;
+	float: left;
+	display: inline-block;
+}
+
+.resultarea {
+	background: #cedc98;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	color: #333333;
+	font-size: 14px;
+}
+
+.selectable .disabled {
+	color: rgb(255, 0, 0, 0.5);
+}
+
+.cartbutton {
+	text-align: right;
+}
+
+.datearea{
+	background-color: yellow;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-weight:700;
+	font-size: 1.1rem;
+}

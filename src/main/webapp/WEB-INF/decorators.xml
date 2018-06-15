@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/views/decorators/">
+
+    <decorator name="member-theme" page="member-theme.jsp">
+        <pattern>/members/*</pattern> 
+    </decorator>
+    
+        <decorator name="admin-theme" page="admin-theme.jsp">
+        <pattern>/admin/*</pattern> 
+    </decorator>
+
+	 <excludes>
+	   <pattern>*/exclude/*</pattern>
+	   <pattern>/admin/plain/*</pattern>
+	 </excludes>
+</decorators>

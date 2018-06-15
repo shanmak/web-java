@@ -1,0 +1,346 @@
+html{
+    width: 100%;
+}
+
+body{
+    background-color: #212529;
+    width: 100%;
+    font-size: 62.5%;
+    min-width: 650px;
+}
+@media only screen and (max-width: 992px) {
+#mainNav .navbar-nav .nav-item{
+    background-color: #00bbe6;
+    width: 200px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .diamond{
+        display:none;
+    }
+}
+
+ @media only screen and (min-width: 992px) {   
+.header-intro .row .boxes:hover {
+    box-shadow: 5px 5px 20px #888888;
+    transition: opacity 0.3s ease-in-out;
+    transform:translate(-5px,-5px);
+}
+}
+
+#mainNav {
+    font-size: 0.9rem;
+    background-color: #00bbe6;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #fed136;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #00bbe6;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+   #mainNav.navbar-shrink .navbar-brand img{
+    width: 30px;
+  }
+
+.carousel-item img{
+    width: 100%;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 10px 20px;
+    margin-left: 20px;
+}
+
+.btn-primary {
+  background-color: orange;
+  border-color: orange;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+    
+  header.masthead .intro-text .intro-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-shadow: 2px 2px 8px #000;
+  }
+
+
+.spacer{
+    height: 200px;
+    background-color: white;
+}
+
+.spacer2{
+    background-color: #00bbe6;
+}
+
+.intro{
+    background-color: #00bbe6;
+    text-align:center;
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.count-wrapper{
+    background-color: #000;
+    color: #fff;
+    height: 150px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+
+.header-intro {
+  background-image: url("../images/raining-huang-31298-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.boxes{
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    height: 300px;
+    margin: 30px;
+    color: #000;
+}
+
+.diamond{
+   position: absolute;
+    width: 70px;
+    height: 70px;
+    background: #00bbe6;
+    left: 41%;
+    top: -11%;
+    box-shadow: 1px 1px 13px #00163c;
+    transform: rotate(45deg);
+    
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 70px;
+}
+
+.d-item{
+  color: #fff;
+  display: table-cell;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+   width:70px;
+   text-shadow: 2px 2px 8px #000;
+}
+
+.header-intro h3{
+    color: #00bbe6;
+    font-weight: 700;
+}
+
+.header-intro{
+    font-size: 1.1rem;
+}
+
+.imggal div img{
+    box-shadow: 5px 5px 20px #888888;
+}
+
+.footer{
+    background-color: #222;
+    color: #fff;
+}
+
+.subfoot ul{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.txt13 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 500;
+	font-size: 1.2rem;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.txt14 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #999999;
+	line-height: 1.7;
+}
+
+
+.fac{
+  font-size: 3rem;
+    background-color: #00bbe6;
+   color: #fff;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+    text-align: center;
+}
+
+.left{
+background: #C33764;     
+}
+
+.right{
+    background-image: url("../images/fac1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.left2{
+background: #f7971e;
+}
+
+.right2{
+    background-image: url("../images/fac2.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+.right3{
+    background-image: url("../images/fac3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.right4{
+    background-image: url("../images/fac4.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.cards{
+  font-size: 3rem;
+   color: #fff;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.badge{
+    color: orange;
+    font-size: 1.6rem;
+}
